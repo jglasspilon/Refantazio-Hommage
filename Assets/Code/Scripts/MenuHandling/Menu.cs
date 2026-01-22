@@ -54,6 +54,43 @@ public class Menu : MonoBehaviour
         OnPageChangeComplete?.Invoke();
     }
 
+    private void Teardown()
+    {
+        foreach (MenuPage page in m_menuPages.Values)
+        {
+            page.ResetPage();
+        }
+
+        InputManager.Instance.SetInputMap(EInputMap.Player);
+        gameObject.SetActive(false);
+        m_activePage = null;
+        m_pageCount = 0;
+    }
+
+    public void Confirm()
+    {
+        if (m_activePage == null)
+            return;
+
+        m_activePage.Confirm();
+    }
+
+    public void CycleUp()
+    {
+        if (m_activePage == null)
+            return;
+
+        m_activePage.CycleUp();
+    }
+
+    public void CycleDown()
+    {
+        if (m_activePage == null)
+            return;
+
+        m_activePage.CycleDown();
+    }
+
     public void Back()
     {
         if (m_activePage != null)
@@ -71,31 +108,18 @@ public class Menu : MonoBehaviour
 
         Teardown();
     }    
-
-    private void Teardown()
-    {
-        foreach (MenuPage page in m_menuPages.Values)
-        {
-            page.ResetPage();
-        }
-
-        InputManager.Instance.SetInputMap(EInputMap.Player);
-        gameObject.SetActive(false);
-        m_activePage = null;
-        m_pageCount = 0;
-    }
 }
 
 public enum EMenuPages
 {
-    Main,
-    Skill,
-    Item,
-    Equipment,
-    Party,
-    Follower,
-    Quest,
-    Calendar,
-    Memorandum,
-    System
+    Main = 0,
+    Skill = 1,
+    Item = 2,
+    Equipment = 3,
+    Party = 4,
+    Follower = 5,
+    Quest = 6,
+    Calendar = 7,
+    Memorandum = 8,
+    System = 9
 }

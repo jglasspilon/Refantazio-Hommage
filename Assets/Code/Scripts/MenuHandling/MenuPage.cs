@@ -31,11 +31,6 @@ public abstract class MenuPage : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public virtual void Confirm()
-    {
-        //TODO: show new segment
-    }
-
     public virtual bool TryGoBack()
     {
         if(m_breadcrumb.Count > 0)
@@ -54,6 +49,9 @@ public abstract class MenuPage : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    public abstract void CycleUp();
+    public abstract void CycleDown();
+    public abstract void Confirm();
     public abstract void ResetPage();
 
     protected async UniTask WaitForCurrentPageAnimationToEnd()

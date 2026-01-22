@@ -57,7 +57,6 @@ public class SceneManager : Singleton<SceneManager>
             yield break;
         }
 
-        Debug.Log($"Loading '{sceneName}' scene");
         yield return UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
     }
 
@@ -83,7 +82,6 @@ public class SceneManager : Singleton<SceneManager>
             }
         }
 
-        Debug.Log($"Unloading '{sceneName}' scene");
         yield return UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync(sceneName);
     }
 
