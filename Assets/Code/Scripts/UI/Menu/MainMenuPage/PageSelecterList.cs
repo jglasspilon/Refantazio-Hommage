@@ -13,7 +13,7 @@ public class PageSelecterList : MonoBehaviour
     private int m_startPageIndex;
 
     [SerializeField]
-    private TextMeshProUGUI m_pageIndexText;
+    private Animator m_anim;
 
     private int m_currentPageIndex;
     private Dictionary<int, PageSelecter> m_pageSelectors;
@@ -25,11 +25,12 @@ public class PageSelecterList : MonoBehaviour
     private void Awake()
     {
         m_pageSelectors = GetComponentsInChildren<PageSelecter>().ToDictionary(x => (int)x.TargetPage, x => x);
+        m_currentPageIndex = m_startPageIndex;
     }
 
-    private void Start()
+    private void OnEnable()
     {
-        SetPageIndex(m_startPageIndex);
+        SetPageIndex(m_currentPageIndex);
     }
 
     public void CycleUp()
@@ -54,43 +55,13 @@ public class PageSelecterList : MonoBehaviour
             newIndex = MIN_INDEX;
 
         m_currentPageIndex = newIndex;
-        SetPageText(m_currentPageIndex);
+        
+        m_anim.SetInteger("PageIndex", m_currentPageIndex);
         OnIndexChanged?.Invoke(m_currentPageIndex);
     }
 
     public void ResetToDefault()
     {
         SetPageIndex(m_startPageIndex);
-    }
-
-    private void SetPageText(int pageIndex)
-    {
-        string result = pageIndex.ToString("0");
-        string richTextFix = "";
-        float xScale = 1.0f;
-
-        //Manually fix the text size, voffset and xScale based on number since the font sheet used does not have optimal numeral glyph sizing
-        switch(pageIndex)
-        {
-            case 1:
-                xScale = 1.4f;
-                break;
-            case 2:
-                break;
-            case 3:
-            case 4:
-            case 5:
-            case 7:
-            case 9:
-                richTextFix = "<size=85%><voffset=80>";
-                break;
-            case 6:
-            case 8:
-                richTextFix = "<size=85%><voffset=20>";
-                break;
-        }
-
-        m_pageIndexText.transform.localScale = new Vector3(xScale, 1, 1);
-        m_pageIndexText.text = $"{richTextFix}{result}";
     }
 }
