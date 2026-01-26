@@ -12,7 +12,7 @@ public class TextMeshGlyphAnimatorEditor: Editor
 
         TextMeshGlyphAnimator script = (TextMeshGlyphAnimator)target;
 
-        if (!script.IsDriversValid)
+        if (!script.IsDriversValid && script.IsTextValid)
         {
             if (GUILayout.Button("Fix Missing Drivers"))
             {

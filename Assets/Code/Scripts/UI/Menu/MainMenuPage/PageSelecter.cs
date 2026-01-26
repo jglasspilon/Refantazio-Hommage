@@ -21,6 +21,11 @@ public class PageSelecter : MonoBehaviour, IPointerEnterHandler, IPointerClickHa
 
     public EMenuPages TargetPage {  get { return m_targetPage; } }
 
+    private void OnEnable()
+    {
+        
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         m_parentPage.SetPageIndex((int)m_targetPage);

@@ -6,18 +6,22 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 [ExecuteAlways]
-[RequireComponent(typeof(TMP_Text))]
 public class TextMeshGlyphAnimator : MonoBehaviour
 {
     [SerializeField] 
     private GlyphAnimationDriver[] m_glyphDrivers;
 
     [SerializeField]
-    private float m_curveTimer;
+    public float m_curveTimer;
 
+    [SerializeField]
     TMP_Text m_text;
+
     private float m_previousTimer;
+
+    public float CurveTimer { get { return m_curveTimer; } set { m_curveTimer = value; } }
     public bool IsDriversValid { get { return m_glyphDrivers.Length >= m_text.textInfo.characterCount; } }
+    public bool IsTextValid { get { return m_text != null; } }
 
     private void Reset()
     {
@@ -26,7 +30,6 @@ public class TextMeshGlyphAnimator : MonoBehaviour
 
     private void OnEnable()
     {
-        m_text = GetComponent<TMP_Text>();
         m_text.OnPreRenderText += OnPreRenderText;
 
         if (!Application.isPlaying)
@@ -35,17 +38,13 @@ public class TextMeshGlyphAnimator : MonoBehaviour
 
     private void OnDisable()
     {
-        if (m_text != null)
-            m_text.OnPreRenderText -= OnPreRenderText;
+        m_text.OnPreRenderText -= OnPreRenderText;
     }
 
     public void ValidateDrivers()
     {
         if (!Application.isPlaying)
         {
-            if (m_text == null)
-                m_text = GetComponent<TMP_Text>();
-
             int charCount = m_text.textInfo.characterCount;
             m_glyphDrivers = ValidateTransformArrayWithTextSize(m_glyphDrivers, charCount, GlyphAnimationDriver.CreateDefault());
         }
@@ -88,9 +87,6 @@ public class TextMeshGlyphAnimator : MonoBehaviour
 
     private void Update()
     {
-        if (m_text == null)
-            m_text = GetComponent<TMP_Text>();
-
         if (m_curveTimer != m_previousTimer)
         {
             m_text.ForceMeshUpdate();
