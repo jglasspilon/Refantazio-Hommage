@@ -103,6 +103,12 @@ public class TextMeshGlyphAnimator : MonoBehaviour
         if (m_glyphDrivers == null)
             return;
 
+        if(!IsDriversValid)
+        {
+            Debug.LogError($"Failed to apply the Glyph animation to {name}. There are more characters than glyph drivers. Click Fix Missing Drivers on component to fix.");
+            return;
+        }
+
         TMP_MeshInfo[] meshInfo = textInfo.meshInfo;
 
         for (int i = 0; i < textInfo.characterCount; i++)

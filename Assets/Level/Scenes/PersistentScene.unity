@@ -807,6 +807,590 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[9].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2045431546325273463, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.7
@@ -1504,6 +2088,358 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2045431546325273463, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.0918
@@ -2165,6 +3101,474 @@ PrefabInstance:
     - target: {fileID: 1909908008317147347, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[8].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2045431546325273463, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3135,6 +4539,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2045431546325273463, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.0918
@@ -3487,6 +4895,10 @@ PrefabInstance:
     - target: {fileID: 1909908008317147347, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2045431546325273463, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4180,6 +5592,358 @@ PrefabInstance:
     - target: {fileID: 1909908008317147347, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[6].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[7].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2045431546325273463, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5365,6 +7129,126 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetXCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].offsetYCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleXCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].scaleYCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.data[5].rotationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2045431546325273463, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.05
@@ -5810,6 +7694,10 @@ PrefabInstance:
     - target: {fileID: 1909908008317147347, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2045431546325273463, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6701,6 +8589,10 @@ PrefabInstance:
     - target: {fileID: 1909908008317147347, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_glyphDrivers.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2045431546325273463, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_LocalPosition.x

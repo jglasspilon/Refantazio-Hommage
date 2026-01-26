@@ -16,7 +16,9 @@ public class TextMeshGlyphAnimatorEditor: Editor
         {
             if (GUILayout.Button("Fix Missing Drivers"))
             {
+                Undo.RecordObject(script, "Validate Drivers");
                 script.ValidateDrivers();
+                EditorUtility.SetDirty(script);                
             }
         }
     }
