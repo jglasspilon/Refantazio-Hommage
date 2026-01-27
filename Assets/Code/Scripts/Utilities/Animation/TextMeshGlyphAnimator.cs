@@ -30,6 +30,7 @@ public class TextMeshGlyphAnimator : MonoBehaviour
 
     private void OnEnable()
     {
+        m_curveTimer = float.MinValue;
         m_text.OnPreRenderText += OnPreRenderText;
 
         if (!Application.isPlaying)
@@ -125,6 +126,7 @@ public class TextMeshGlyphAnimator : MonoBehaviour
         Vector3 offset = default; 
         offset.x = driver.offsetXCurve.Evaluate(m_curveTimer);
         offset.y = driver.offsetYCurve.Evaluate(m_curveTimer);
+        offset.z = driver.offsetZCurve.Evaluate(m_curveTimer);
                
         Vector3 scale = default;
         scale.x = driver.scaleXCurve.Evaluate(m_curveTimer);
@@ -152,6 +154,7 @@ public struct GlyphAnimationDriver
 {
     public AnimationCurve offsetXCurve;
     public AnimationCurve offsetYCurve;
+    public AnimationCurve offsetZCurve;
     public AnimationCurve scaleXCurve;
     public AnimationCurve scaleYCurve;
     public AnimationCurve rotationCurve;
@@ -162,6 +165,7 @@ public struct GlyphAnimationDriver
         {
             offsetXCurve = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0f)),
             offsetYCurve = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0f)),
+            offsetZCurve = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0f)),
             scaleXCurve = new AnimationCurve(new Keyframe(0f, 1f), new Keyframe(1f, 1f)),
             scaleYCurve = new AnimationCurve(new Keyframe(0f, 1f), new Keyframe(1f, 1f)),
             rotationCurve = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0f))
