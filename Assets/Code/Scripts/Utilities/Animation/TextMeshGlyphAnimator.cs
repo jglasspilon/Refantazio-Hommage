@@ -121,7 +121,11 @@ public class TextMeshGlyphAnimator : MonoBehaviour
 
     private void ApplyCharacterTransformations(TMP_MeshInfo[] meshInfo, TMP_CharacterInfo charInfo, GlyphAnimationDriver driver)
     {
-        Quaternion rotation = Quaternion.Euler(0, 0, driver.rotationCurve.Evaluate(m_curveTimer));
+        int vIndex = charInfo.vertexIndex;
+        int mIndex = charInfo.materialReferenceIndex;
+        Color32[] colors = meshInfo[mIndex].colors32;
+        Vector3[] verts = meshInfo[mIndex].vertices;
+        Vector3 mid = (verts[vIndex] + verts[vIndex + 2]) * 0.5f;
 
         Vector3 offset = default; 
         offset.x = driver.offsetXCurve.Evaluate(m_curveTimer);
@@ -132,11 +136,12 @@ public class TextMeshGlyphAnimator : MonoBehaviour
         scale.x = driver.scaleXCurve.Evaluate(m_curveTimer);
         scale.y = driver.scaleYCurve.Evaluate(m_curveTimer);
         scale.z = 1;
-        int vIndex = charInfo.vertexIndex;
-        int mIndex = charInfo.materialReferenceIndex;
 
-        Vector3[] verts = meshInfo[mIndex].vertices;
-        Vector3 mid = (verts[vIndex] + verts[vIndex + 2]) * 0.5f;
+        Quaternion rotation = Quaternion.Euler(0, 0, driver.rotationCurve.Evaluate(m_curveTimer));
+
+        float alpha = Mathf.Clamp01(driver.alphaCurve.Evaluate(m_curveTimer));
+        byte a = (byte)(alpha * 255);
+        
 
         for (int j = 0; j < 4; j++)
         {
@@ -145,6 +150,13 @@ public class TextMeshGlyphAnimator : MonoBehaviour
             relative = rotation * relative;
             verts[vIndex + j] = relative + mid;
             verts[vIndex + j] += offset;
+
+            if (driver.alphaCurve != null)
+            {
+                Color32 c = colors[vIndex + j];
+                c.a = a;
+                colors[vIndex + j] = c;
+            }
         }
     }
 }
@@ -158,6 +170,7 @@ public struct GlyphAnimationDriver
     public AnimationCurve scaleXCurve;
     public AnimationCurve scaleYCurve;
     public AnimationCurve rotationCurve;
+    public AnimationCurve alphaCurve;
 
     public static GlyphAnimationDriver CreateDefault()
     {
@@ -168,7 +181,8 @@ public struct GlyphAnimationDriver
             offsetZCurve = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0f)),
             scaleXCurve = new AnimationCurve(new Keyframe(0f, 1f), new Keyframe(1f, 1f)),
             scaleYCurve = new AnimationCurve(new Keyframe(0f, 1f), new Keyframe(1f, 1f)),
-            rotationCurve = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0f))
+            rotationCurve = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 0f)),
+            alphaCurve = new AnimationCurve(new Keyframe(0f, 1f), new Keyframe(1f, 1f))
         };
     }
 }
