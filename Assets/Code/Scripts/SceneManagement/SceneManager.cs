@@ -101,5 +101,4 @@ public enum Scenes
 {
     Launch,
     Demo, 
-    Menu
 }

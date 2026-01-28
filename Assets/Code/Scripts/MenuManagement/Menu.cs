@@ -119,7 +119,7 @@ public class Menu : MonoBehaviour
             m_activePage.Close();
         }
 
-        m_gameState.ReturnToPreviousState();
+        m_gameState.ReturnToSceneState();
     }    
 }
 

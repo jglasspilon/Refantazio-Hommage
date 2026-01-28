@@ -1,10 +1,13 @@
 using System.Collections;
 using UnityEngine;
 
-public abstract class SceneLoader : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
     [SerializeField]
     private Scenes m_sceneName;
+
+    [SerializeField]
+    private EGameState m_sceneState;
 
     private void Awake()
     {
@@ -12,6 +15,12 @@ public abstract class SceneLoader : MonoBehaviour
         Load();
     }
 
-    public abstract void Load();
-    public abstract IEnumerator Unload();
+    public virtual void Load()
+    {
+        GameStateManager.Instance.CurrentSceneState = m_sceneState;
+    }
+    public virtual IEnumerator Unload()
+    {
+        yield break;
+    }
 }

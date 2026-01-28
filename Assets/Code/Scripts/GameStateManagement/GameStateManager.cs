@@ -9,9 +9,9 @@ public class GameStateManager : Singleton<GameStateManager>
     private EGameState m_startingState;
 
     private EGameState m_currentState;
-    private EGameState m_previousState;
 
     public EGameState CurrentState {  get { return m_currentState; } }
+    public EGameState CurrentSceneState { get; set; }
 
     protected override void Awake()
     {
@@ -21,14 +21,13 @@ public class GameStateManager : Singleton<GameStateManager>
 
     public void ChangeState(EGameState newState)
     {
-        m_previousState = m_currentState;
         m_currentState = newState;
         OnGameStateChanged?.Invoke(m_currentState);
     }
 
-    public void ReturnToPreviousState()
+    public void ReturnToSceneState()
     {
-        m_currentState = m_previousState;
+        m_currentState = CurrentSceneState;
         OnGameStateChanged?.Invoke(m_currentState);
     }
 }
@@ -36,5 +35,9 @@ public class GameStateManager : Singleton<GameStateManager>
 public enum EGameState
 {
     Menu,
-    Field
+    Field, 
+    Town,
+    Combat,
+    Dialoque,
+    Cinematic
 }
