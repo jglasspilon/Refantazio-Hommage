@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PageSubTitle
-  m_Shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 22fefb6745411d0478a6bd3c2d843e94, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -62,7 +62,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b2179b09686627e419edb06487616d91, type: 3}
+        m_Texture: {fileID: 2800000, guid: 116359c4d8a247c4db21ab4097df6a5d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -133,5 +133,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tint: {r: 0, g: 0, b: 0, a: 1}
+    - _UVOffset: {r: 0.20499675, g: 0.010009766, b: 0, a: 0}
+    - _UVScale: {r: 0.07812342, g: 0.018674478, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -149,7 +149,7 @@ TextureImporter:
         width: 1756
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,7 +171,7 @@ TextureImporter:
         width: 263
         height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,6 +180,28 @@ TextureImporter:
       bones: []
       spriteID: f54d5c57d4152dc4a863d68501bfb4ac
       internalID: 1592078220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banner6
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 41
+        width: 959
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4495e15b3cd3162438bb5a255eaa0811
+      internalID: 939716173
       vertices: []
       indices: 
       edges: []
@@ -198,6 +220,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Banner6: 939716173
       CASH: -592917978
       Dust: 1592078220
       FaddedLine3: -1323955762

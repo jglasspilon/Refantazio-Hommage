@@ -198,7 +198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &9095860619132783144
 RectTransform:
   m_ObjectHideFlags: 0
@@ -479,6 +479,7 @@ GameObject:
   - component: {fileID: 1203450451916633991}
   - component: {fileID: 568321824443184275}
   - component: {fileID: 4334966046695884459}
+  - component: {fileID: 747034983884462314}
   m_Layer: 7
   m_Name: SubTitlePanel
   m_TagString: Untagged
@@ -495,8 +496,8 @@ Transform:
   m_GameObject: {fileID: 4539450947284562014}
   serializedVersion: 2
   m_LocalRotation: {x: 0.09089038, y: -0.7020971, z: 0.6892794, w: 0.15392384}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2260792, y: 0.16474277, z: 0.24999999}
+  m_LocalPosition: {x: -1.4395, y: 0, z: 0}
+  m_LocalScale: {x: 1.5276948, y: 0.16474277, z: 0.24999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9095860619132783144}
@@ -580,6 +581,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &747034983884462314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4539450947284562014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c4595960c8872468a626c8ef44b2ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteToMaterialComponent
+  m_sprite: {fileID: 939716173, guid: 116359c4d8a247c4db21ab4097df6a5d, type: 3}
 --- !u!1 &6264253332386250520
 GameObject:
   m_ObjectHideFlags: 0
