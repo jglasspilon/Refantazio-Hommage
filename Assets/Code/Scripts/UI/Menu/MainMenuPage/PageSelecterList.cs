@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class PageSelecterList : MonoBehaviour
 {  
-    [SerializeField]
     private Animator m_anim;
-
-    [SerializeField]
     private MainMenuPage m_parentPage;
-
     private Dictionary<int, PageSelecter> m_pageSelectors;    
 
     private void Awake()
     {
-        m_pageSelectors = GetComponentsInChildren<PageSelecter>().ToDictionary(x => (int)x.TargetPage, x => x);
+        m_anim = GetComponent<Animator>();
+        m_pageSelectors = GetComponentsInChildren<PageSelecter>(true).ToDictionary(x => (int)x.TargetPage, x => x);
+        m_parentPage = GetComponentInParent<MainMenuPage>();
     }
 
     private void OnEnable()

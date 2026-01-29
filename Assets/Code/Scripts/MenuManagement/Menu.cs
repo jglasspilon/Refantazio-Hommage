@@ -16,7 +16,7 @@ public class Menu : MonoBehaviour
     private void Awake()
     {
         m_gameState = GameStateManager.Instance;
-        m_menuPages = GetComponentsInChildren<MenuPage>().ToDictionary(x => x.PageName, x => x);
+        m_menuPages = GetComponentsInChildren<MenuPage>(true).ToDictionary(x => x.PageName, x => x);
         foreach(MenuPage page in m_menuPages.Values)
         {
             page.gameObject.SetActive(false);

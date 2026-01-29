@@ -5,10 +5,7 @@ using UnityEngine.EventSystems;
 public class PageSelecter : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler
 {
     [SerializeField]
-    private EMenuPages m_targetPage;
-
-    [SerializeField]
-    private MainMenuPage m_parentPage;
+    private EMenuPages m_targetPage;   
 
     [SerializeField]
     private TextMeshPro m_label;
@@ -19,11 +16,13 @@ public class PageSelecter : MonoBehaviour, IPointerEnterHandler, IPointerClickHa
     [SerializeField]
     private Color m_labelColorActive, m_labelColorInactive;
 
+    private MainMenuPage m_parentPage;
+
     public EMenuPages TargetPage {  get { return m_targetPage; } }
 
-    private void OnEnable()
+    private void Awake()
     {
-        
+        m_parentPage = GetComponentInParent<MainMenuPage>();
     }
 
     public void OnPointerEnter(PointerEventData eventData)

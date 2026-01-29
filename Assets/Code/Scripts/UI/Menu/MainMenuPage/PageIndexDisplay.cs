@@ -6,21 +6,21 @@ public class PageIndexDisplay : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI m_pageIndexText;
 
-    [SerializeField]
-    private MainMenuPage m_parentPage;
-
+    
     [SerializeField]
     private float m_nudgeDistance;
 
     [SerializeField]
     private float m_nudgeSpeed;
 
+    private MainMenuPage m_parentPage;
     private Vector3 m_startPosition;
     private Vector3 m_nudgePosition;
     private bool m_isNudged;
 
     private void Awake()
     {
+        m_parentPage = GetComponentInParent<MainMenuPage>();
         m_startPosition = transform.localPosition;
         m_nudgePosition = new Vector3(m_startPosition.x, m_startPosition.y - m_nudgeDistance, m_startPosition.z);
     }
