@@ -193,7 +193,7 @@ TextureImporter:
         width: 959
         height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,6 +202,28 @@ TextureImporter:
       bones: []
       spriteID: 4495e15b3cd3162438bb5a255eaa0811
       internalID: 939716173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 490
+        width: 979
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2669876b57399c46a5e85da55874f89
+      internalID: 743353097
       vertices: []
       indices: 
       edges: []
@@ -225,6 +247,7 @@ TextureImporter:
       Dust: 1592078220
       FaddedLine3: -1323955762
       MAG: -1838065145
+      Shadow: 743353097
       Shop_BackInkSplotch: 1486209003
       Shop_Giberish: -2016557796
       Shop_WhiteDahses: -674526602
