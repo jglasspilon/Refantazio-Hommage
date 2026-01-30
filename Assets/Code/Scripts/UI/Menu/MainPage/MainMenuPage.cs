@@ -15,7 +15,6 @@ public class MainMenuPage : MenuPage
     private Menu m_menuParent;
     private int m_currentPageIndex;
     private const int MIN_INDEX = 1;
-    private const int MAX_INDEX = 9;
 
     public int CurrentPageIndex {  get { return m_currentPageIndex == 0 ? m_startPageIndex : m_currentPageIndex; } } 
 
@@ -49,11 +48,12 @@ public class MainMenuPage : MenuPage
     public void SetPageIndex(int pageIndex)
     {
         int newIndex = pageIndex;
+        int maxIndex = m_pageSelecterList.NumSelecters;
 
         if (newIndex < MIN_INDEX)
-            newIndex = MAX_INDEX;
+            newIndex = maxIndex;
 
-        if (newIndex > MAX_INDEX)
+        if (newIndex > maxIndex)
             newIndex = MIN_INDEX;
 
         m_currentPageIndex = newIndex;       

@@ -139,9 +139,8 @@ public class TextMeshGlyphAnimator : MonoBehaviour
 
         Quaternion rotation = Quaternion.Euler(0, 0, driver.rotationCurve.Evaluate(m_curveTimer));
 
-        float alpha = Mathf.Clamp01(driver.alphaCurve.Evaluate(m_curveTimer));
-        byte a = (byte)(alpha * 255);
-        
+        float alphaModifier = Mathf.Clamp01(driver.alphaCurve.Evaluate(m_curveTimer));
+        byte alpha = (byte)(m_text.color.a * alphaModifier * 255);       
 
         for (int j = 0; j < 4; j++)
         {
@@ -154,7 +153,7 @@ public class TextMeshGlyphAnimator : MonoBehaviour
             if (driver.alphaCurve != null)
             {
                 Color32 c = colors[vIndex + j];
-                c.a = a;
+                c.a = alpha;
                 colors[vIndex + j] = c;
             }
         }

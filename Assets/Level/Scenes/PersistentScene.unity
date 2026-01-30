@@ -379,7 +379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &40446950
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3100,7 +3100,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 295587274}
-  - component: {fileID: 295587275}
   m_Layer: 7
   m_Name: MainMenuProjectionContent
   m_TagString: Untagged
@@ -3131,28 +3130,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &295587275
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295587273}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: a7c0230141b00b14990cf60b3ad4e995, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &310287247
 GameObject:
   m_ObjectHideFlags: 0
@@ -6711,6 +6688,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1874598954924367358, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_canSelect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1874598954924367358, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_parentPage
       value: 
       objectReference: {fileID: 0}
@@ -6721,6 +6702,10 @@ PrefabInstance:
     - target: {fileID: 1909908008317147347, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968349336823109418, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_glyphDrivers.Array.size
@@ -7569,6 +7554,10 @@ PrefabInstance:
         >M</voffset></size>em<rotate=-10>o</rotate>randum'
       objectReference: {fileID: 0}
     - target: {fileID: 9195457188041216152, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195457188041216152, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -7591,7 +7580,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 304585635740428959, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
 --- !u!4 &382025081 stripped
 Transform:
@@ -10395,7 +10387,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 304585635740428959, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
 --- !u!4 &549653598 stripped
 Transform:
@@ -11941,7 +11936,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.62789917}
+  m_AnchoredPosition: {x: 0, y: 0.6279297}
   m_SizeDelta: {x: 0, y: 1.2558}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &715766791
@@ -14028,7 +14023,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 304585635740428959, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
 --- !u!4 &814351967 stripped
 Transform:
@@ -16869,7 +16867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: -4.6454}
+  m_AnchoredPosition: {x: 0, y: -4.6454}
   m_SizeDelta: {x: 0.00012207, y: 72.393}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &884266442
@@ -21473,7 +21471,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -27.2, y: 20.6}
+  m_AnchoredPosition: {x: -27.199951, y: 20.599976}
   m_SizeDelta: {x: 258.941, y: 17.2366}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1017288221
@@ -21747,7 +21745,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1060373019
 Transform:
   m_ObjectHideFlags: 0
@@ -23693,7 +23691,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 304585635740428959, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
 --- !u!4 &1155849958 stripped
 Transform:
@@ -27708,7 +27709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1224519228
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29559,7 +29560,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 304585635740428959, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
 --- !u!4 &1306958146 stripped
 Transform:
@@ -30431,6 +30435,10 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1874598954924367358, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_canSelect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1874598954924367358, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_parentPage
       value: 
       objectReference: {fileID: 0}
@@ -30441,6 +30449,10 @@ PrefabInstance:
     - target: {fileID: 1909908008317147347, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968349336823109418, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_glyphDrivers.Array.size
@@ -31015,6 +31027,10 @@ PrefabInstance:
       value: calendar
       objectReference: {fileID: 0}
     - target: {fileID: 9195457188041216152, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195457188041216152, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -31037,7 +31053,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 304585635740428959, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
 --- !u!4 &1404104832 stripped
 Transform:
@@ -34311,7 +34330,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1568623032
 RectTransform:
   m_ObjectHideFlags: 0
@@ -42075,6 +42094,10 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1874598954924367358, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_canSelect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1874598954924367358, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_parentPage
       value: 
       objectReference: {fileID: 0}
@@ -42085,6 +42108,10 @@ PrefabInstance:
     - target: {fileID: 1909908008317147347, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968349336823109418, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_glyphDrivers.Array.size
@@ -42419,6 +42446,10 @@ PrefabInstance:
         >S</voffset></size>ystem'
       objectReference: {fileID: 0}
     - target: {fileID: 9195457188041216152, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195457188041216152, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -42441,7 +42472,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 304585635740428959, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
 --- !u!4 &1833896559 stripped
 Transform:
@@ -44128,6 +44162,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1874598954924367358, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_canSelect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1874598954924367358, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_parentPage
       value: 
       objectReference: {fileID: 0}
@@ -44138,6 +44176,10 @@ PrefabInstance:
     - target: {fileID: 1909908008317147347, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968349336823109418, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1972642948550982218, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_glyphDrivers.Array.size
@@ -44340,6 +44382,10 @@ PrefabInstance:
       value: <size=80%><voffset=8>Q</voffset></size>uest
       objectReference: {fileID: 0}
     - target: {fileID: 9195457188041216152, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195457188041216152, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -44362,7 +44408,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 304585635740428959, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
 --- !u!4 &1951322303 stripped
 Transform:
@@ -47934,7 +47983,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 304585635740428959, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 6264253332386250520, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b902d6d39b75fb141a3d09ca2dd6f265, type: 3}
 --- !u!114 &4196667038025490589 stripped
 MonoBehaviour:

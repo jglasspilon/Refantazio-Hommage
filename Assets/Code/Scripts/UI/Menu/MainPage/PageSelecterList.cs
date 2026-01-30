@@ -8,6 +8,8 @@ public class PageSelecterList : MonoBehaviour
     private MainMenuPage m_parentPage;
     private Dictionary<int, PageSelecter> m_pageSelectors;    
 
+    public int NumSelecters { get { return m_pageSelectors.Values.Where(x => x.CanSelect).Count(); } } 
+
     private void Awake()
     {
         m_anim = GetComponent<Animator>();
